@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #133261;
+  color: #fff;
+  font-family:cursive;
+}
+.stop_watch {
+  margin-top: 50% ;
+  text-align: center;
+}
+
+.stop_watch h1{
+  font-size: 6rem;
+  margin: 3% 0;
+  letter-spacing: 3px;
+}
+
+.m_sec ,.Sec ,.Min{
+  width: 100px;
+  /* height: 100px; */
+  background-color: #062047;
+  color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.timer h2{
+  font-size: 2rem;
+  text-align: center;
+  padding: 5% 2%;
+}
+
+.timer-buttons {
+  margin: 4% 0;
+}
+
+.timer-buttons button{
+  width: 130px;
+  height: 50px;
+background-color: #214e91;
+font-family:cursive;
+font-size: 18px;
+margin: 0 1%;
+font-size: 1rem;
+
+}
+
+@media screen and (min-width: 1000px){
+  .stop_watch {
+    margin-top: 9%;
+  }
+  .stop_watch h1{
+    font-size: 3rem;
+    margin: 3% 0;
+  }
+  .timer h2{
+    text-align: center;
+    padding: 3% 1%;
+  }
+  .timer-buttons button{
+    width: 80px;
+    height: 30px;
+  }
+}
